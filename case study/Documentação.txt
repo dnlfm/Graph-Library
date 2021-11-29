@@ -1,0 +1,13 @@
+﻿/*
+*  Trabalho Prático 1 - Teoria e Modelo de Grafos CCF-331
+*  Daniel Freitas Martins - 2304
+*  Naiara Cristiane dos Reis Diniz - 3005
+*/
+
+	De acordo com as especificações todo o trabalho foi concluido com êxito na linguagem Java. Ademais, o contexto real que utiliza grafos foi a problemática gerada em eventos que possuem muitas atividades simultâneas e a dificuldade na escolha do participante em qual atividade lhe beneficia mais. Utilizando a função que calcula um Conjunto Independente, podemos maximizar a quantidade de atividades em que se pode participar; entretanto a heurística utilizada não garante a solução ótima para o problema. Para a situação problema utilizamos informações do primeiro dia da agenda do evento Campus Party 2019 (http://brasil.campus-party.org/cprondonia/agenda-2-2/).
+
+	Para este problema, modelamos da seguinte forma:
+		- Vértices: atividades do evento;
+		- Arestas: existência de conflito de horários entre duas atividades.
+
+	De acordo com os resultados obtidos presentes no arquivo "resultados_grafo_evento.txt", o evento possui ao todo 52 atividades e existem 152 conflitos de horários entre pares de eventos. A heurística retornou que o número de independência é igual a 8 e sugeriu um conjunto que respeita as condições envolvidas. Desta forma, é possível atender a 8 atividades sem que haja conflito de horários.
