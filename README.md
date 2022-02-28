@@ -19,10 +19,14 @@ Some input files that can be used can be found in the [input folder](input/).
 # Compiling and Executing
 
 Execute the following command to **compile**:
-> javac -encoding UTF8 -cp . src/bibliotecagrafos/visao/*.java src/bibliotecagrafos/*.java -d build
+```
+javac -encoding UTF8 -cp . src/bibliotecagrafos/visao/*.java src/bibliotecagrafos/*.java -d build
+```
 
 Execute the following command to **execute**:
-> java -cp "build;." bibliotecagrafos.BibliotecaGrafos
+```
+java -cp "build;." bibliotecagrafos.BibliotecaGrafos
+```
 
 Execution example:
 ![Execution](misc/execution.png "Execution")
